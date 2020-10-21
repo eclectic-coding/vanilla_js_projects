@@ -62,11 +62,11 @@ window.addEventListener('keydown', (event) => {
 });
 
 function showNotification() {
-
+  notification.classList.add('show')
 }
 
 function updateWrongLettersEl() {
-
+  console.log('Update wrong');
 }
 
 displayWord();
